@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>baulus website</title>
-    <link rel="icon" href="https://s3.getstickerpack.com/storage/uploads/sticker-pack/random-gif-1/sticker_7.gif?76975ffa596fe72546e2cea58c2534df">
+    <link rel="icon" href="https://loginportal.funnyjunk.com/gifs/Random+gif_e2e711_4971060.gif">
     <style>
 
 
@@ -29,7 +29,6 @@
         }
 
         a {
-            font-family: texgyreadventor;
             color: white;
             text-decoration: none;
 
@@ -49,6 +48,19 @@
             align-items: center;
         }
 
+        .ueberschrift:hover{
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
+        .ueberschrift:click{
+            color: #353536;
+        }
+
+        .unterueberschrift{
+            font-family: texgyreadventor;
+        }
+
         .knoepfe{
             align-content: center;
             display: flex;
@@ -63,25 +75,26 @@
             color: white;
             background-color: #0062ff;
             border-width: 0px;
-            border-radius: 30px;
+            border-radius: 20px;
             text-align: center;
-            margin-bottom: 10px;
             width: 100px;
             height: 100px;
+            margin-bottom: 10px;
             
         }
 
         .knopf:hover{
-            background-size: 105%;
+            cursor: pointer;
             color: black;
 
         }
         
 
         .credits{
-            color: grey;
+            font-family: texgyreadventor;
+            color: white;
             display: flex;
-            align-items: flex-end;
+            align-items:;
             justify-content: center;
             gap: 50px;
         }
@@ -92,9 +105,9 @@
 </head>
 <body>
     <section class="center">
-        <h1 class="ueberschrift">Willkommen auf der Roboterkontroll Website des Physik-Plus Kurses!</h1>
-        <a href="">
-            <h3>Tutorial</h3>
+        <a href=""><h1 class="ueberschrift">Willkommen auf der Roboterkontroll Website des Physik-Plus Kurses!</h1></a>
+        <a href="https://github.com/baulusdev/robot-website" target="_blank">
+            <h3 class="unterueberschrift">Tutorial</h3>
         </a>
     </section>
     <div class="knoepfe">
@@ -112,9 +125,13 @@
         <button class="knopf">
             <p>→</p>
         </button>
+        
+    </div>
+    <div class="knoepfe">
+        
     </div>
     <section class="credits">
-        <a href="https://snaens.net" target="_blank"><p>Sam</p></a><a href="https://baulusdev.github.io/website" target="_blank"><p>Luis</p></a>
+        <p>Credits:</p><a href="https://snaens.net" target="_blank"><p>Sam</p></a><a href="https://baulusdev.github.io/website" target="_blank"><p>Luis</p></a> <a href="https://pipeman.org" target="_blank"><p>Roman</p></a>
     </section>
 </body>
 </html>
