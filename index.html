@@ -23,11 +23,20 @@
 
             /*overflow: auto; */
             background-color: #1c1c1c;
+            height: 100vh;
+            width: 100vw;
+            overflow: hidden;
         }
 
         a {
+            font-family: texgyreadventor;
             color: white;
+            text-decoration: none;
 
+        }
+
+        a:hover{
+            color: grey;
         }
 
         .center {
@@ -57,9 +66,18 @@
         }
 
         .knopf:hover{
-            color: darkblue;
+            color: black;
 
         }
+
+        .credits{
+            color: grey;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            gap: 50px;
+        }
+
 
         
     </style>
@@ -75,7 +93,8 @@
         <button class="knopf">
             <p>↑</p>
         </button>
-        
+    </div>
+    <div class="knoepfe">
         <button class="knopf">
             <p>←</p>
         </button>
@@ -86,5 +105,8 @@
             <p>→</p>
         </button>
     </div>
+    <section class="credits">
+        <a href="https://snaens.net"><p>Sam</p></a><a href="https://baulusdev.github.io/website"><p>Luis</p></a>
+    </section>
 </body>
 </html>
